@@ -1,0 +1,153 @@
+body
+{
+background-color:#516BEB;
+
+
+}
+.main{
+	width:60%;
+	margin-left:20%;
+	margin-top:2%;
+	border-width:0.5px;
+	border-style:solid;
+	border-color:grey;
+	background-color:#fff;
+	font-family:calibri;
+}
+
+.section1{
+    border-width:0.5px;
+	margin-top:30px;
+	margin-left:30px;
+	margin-right:30px;
+	}
+
+
+.flex-container {
+  display: flex;
+ 
+}
+
+.flex-container > div  {
+    margin: 10px;
+    width: 25%;     
+    border-radius: 9px;
+	box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.10);
+	
+}
+.flex-container .abc{
+	box-shadow:unset;
+}
+#part2 {
+	margin-top:20px;
+	width:50%;
+	padding-left:30px;
+	padding-bottom:10px;
+	
+
+}
+.cont{
+    border-width:0 0 0 5px;
+	border-style:solid;
+	border-color:skyblue;
+	padding-left:15px;
+	
+}
+#part3{
+margin-top:20px;
+	width:40%;
+	padding-left:30px;
+	padding-bottom:10px;
+	margin-left:20px;
+}
+.cont2{
+    border-width:0 0 0 5px;
+	border-style:solid;
+	border-color:skyblue;
+	padding-left:15px;
+	height:200px;
+	}
+	
+	#part4{
+    width: 80%;     
+    border-radius: 6px;
+	margin-left:0;
+	padding:20px;
+	padding-left:5px;
+	box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.10);
+	}
+
+	
+	#part5{
+    margin-top:20px;
+	width:50%;
+	padding-left:30px;
+	padding-bottom:10px;
+	}
+
+	#part7{
+	margin-top:20px;
+	width:35%;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:10px;
+	margin-left:20px;
+	 opacity: 0.9;
+}
+	.grid-container {
+  display: grid;
+  gap: 15px 15px;
+  grid-template-columns: auto auto ;
+  margin-bottom:20px;
+  margin-top:30px;
+  
+}
+
+.grid-item1 {
+  padding: 18px;
+  font-size: 14px;
+  text-align: center;
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.10);
+}
+.footer{
+	display:grid;
+	gap: 15px;
+	grid-template-columns: auto auto auto auto ;
+	padding:8px;
+	margin-bottom:50px;
+	border-radius:6px;
+	margin-left:10px;
+	margin-right:10px;
+	box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.10);
+	margin-top:30px;
+	padding-left:15px;
+  }
+  .item{
+  	 
+	  font-size:14px;
+	  text-align:center;
+	  
+  }
+
+  .part6 {
+  display: grid;
+  gap: 15px 15px;
+  grid-template-columns: auto auto ;
+  
+  }
+ 
+  .small-grid{
+  	  display:grid;
+	  grid-template-columns: auto auto;
+	  
+	  
+	  
+  }
+  #box{
+  	  background-color: #2196F3;
+	  border-radius:6px;
+	   }
+
+	   #box-item{
+	   	  
+	   }
