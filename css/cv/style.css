@@ -15,7 +15,9 @@ background-color:#516BEB;
 	font-family:calibri;
 }
 
-
+.ab{
+	margin-left:15px;
+}
 
 .section1{
     border-width:0.5px;
@@ -66,8 +68,8 @@ margin-top:20px;
     border-width:0 0 0 5px;
 	border-style:solid;
 	border-color:skyblue;
-	padding-left:15px;
-	height:200px;
+	
+	
 	}
 	
 	#part4{
