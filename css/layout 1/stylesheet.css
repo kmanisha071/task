@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    padding:1rem;
+    background-color: #fff;
+}
+button{
+    border: none;
+}
+.container{
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+
+.container-primary{
+background-color: rgba(238, 101, 52, 0.753);
+color: #fff;
+}
+
+.header{
+    display: flex;
+    padding:15px;
+    justify-content: space-around;
+}
+
+.logo{
+color:#fff;
+font-size: 1.8rem;
+
+}
+
+.menu{
+    display:grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(196, 137, 116, 0.76);
+    border-radius: 30px;
+    color:aliceblue
+}
+
+.menu-item{
+    padding:12px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 0.8em;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;  
+}
+
+.btn-secondary{
+    background-color: #fff;
+    color: black;
+   
+}
+
+.btn-sm{
+    border-radius: 1.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;  
+   
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.jumbotron-heading{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2.5rem;;
+   
+}
+.jumbotron-para{
+    padding: 0 25%;
+    text-align: center;  
+    margin-bottom: 1rem;
+}
+
+.jumbotron-btn{
+    align-self: center; 
+    justify-self: baseline;
+    margin-bottom: 1rem;
+}
+
+.btn-info{
+    color: #fff;
+    background-color: rgb(7, 7, 34);
+    font-size: 0.8rem;
+    
+}
+
+.container-secondary{
+    background-color: rgba(228, 224, 222, 0.808);
+    color: rgb(7, 7, 34);
+    font-size: 1.8rem;
+    text-align: center; 
+    padding: 2rem;
+
+}
+
+.container2{
+    display:flex;
+    align-items: center;
+}
+
+.container2-para{
+    font-size:1.8rem;
+    align-content: left;
+    margin-right: 2rem;
+}
+
+.container2-btn{
+    margin-top: 2rem;
+    
+}
+
+.demo-img{
+    align-self: center;
+    margin-top: 3rem; 
+    margin-left: 6rem; 
+    margin-right: 4rem;;
+}
+
+img{
+    width:18rem;
+    height:25rem;
+    border-radius: 25px;
+}
+
