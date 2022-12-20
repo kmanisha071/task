@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    background-color: rgb(183, 179, 187);
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.container{
+    display: flex;
+
+}
+
+.container-primary{
+    width:33%;
+    height: auto;
+    margin: 1rem;  
+    background-color: #fff; 
+  
+}
+
+.demo-img{
+    width: 100%;
+    display: block;
+    
+}
+.image{
+    width:100%;
+}
+   
+
+.avatar-name{
+ position: absolute;
+  
+}
+.about{
+    margin:1rem;
+    margin-top: 2rem;
+
+}
+.fa-fa-color{
+    color: teal;
+}
+.gap{
+    margin-right: 1rem;
+}
+.fafa-size{
+    font-size: 18px;
+}
+.skills{
+    margin: 1rem;
+}
+.box{
+    color: #000;
+    background-color: #cac1c1;
+    
+}
+.box-property{
+    font-size: 12px;
+    border-radius: 16px;
+}
+.box-container{
+    color:#fff;
+    background-color: teal;
+}
+
+.box-container-property{
+width:90%;
+text-align: center;
+padding: 0.01em 16px;
+border-radius: 16px;
+
+}
+.container-secondary{
+    width:67%;
+    margin: 1rem; 
+    margin-left: 0.1rem;  
+    background-color: #fff; 
+  
+}
