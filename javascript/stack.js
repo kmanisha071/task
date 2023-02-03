@@ -1,10 +1,12 @@
 let stack = [];
 
-function push(element) {
+function push(element) 
+{
     stack.push(element);
 }
 
-function pop() {
+function pop()
+ {
     if (stack.length === 0)
      {
         return "Underflow";
@@ -15,15 +17,18 @@ function pop() {
     }
 }
 
-function peek() {
+function peek()
+ {
     return stack[stack.length - 1];
 }
 
-function isEmpty() {
+function isEmpty()
+ {
     return stack.length === 0;
 }
 
-function display() {
+function display()
+ {
     console.log(stack.join(" "));
 }
 
@@ -46,10 +51,10 @@ function main() {
                 break;
             case 2:
                 let del = pop();
-                console.log("Popped element: " + del);
+                console.log("Popped element: " +del);
                 break;
             case 3:
-                console.log("Top element: " + peek());
+                console.log("Top element: " +peek());
                 break;
             case 4:
                 console.log(isEmpty());
